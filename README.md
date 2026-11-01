@@ -1,16 +1,72 @@
-# React + Vite
+# 🛍️ ShopKart – E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive e-commerce frontend built using React and Vite.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+https://shop-kart-three-psi.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 GitHub Repository
+https://github.com/keycoder070/ShopKart
 
-## React Compiler
+## ✨ Features
+- Responsive design for desktop and mobile
+- Product listing with images and prices
+- Product search functionality
+- Category-based product filtering
+- Add to Cart functionality
+- Increase and decrease product quantity
+- Cart total price calculation
+- Cart data saved using LocalStorage
+- Demo checkout experience
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- LocalStorage
+- Git and GitHub
+- Vercel
 
-## Expanding the Oxlint configuration
+## 🚀 Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/keycoder070/ShopKart.git
+```
+
+Go to the project folder:
+
+```bash
+cd ShopKart
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+## 👨‍💻 Developer
+
+**Satyabrata Sahoo**
+
+GitHub: https://github.com/keycoder070
+
+---
+
+This project was created for learning and practicing frontend development. Checkout is a demo and does not process real payments.
